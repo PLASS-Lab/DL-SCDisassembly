@@ -1,0 +1,3 @@
+recursive-include elmo/projects *
+recursive-include elmo/templates *
+recursive-exclude elmo/elmo-tool *
