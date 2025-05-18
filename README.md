@@ -61,7 +61,7 @@ The main features.
 
 
 ## Citation
-If you find this data useful for your research, please cite the following work.
+If you find this code useful for your research, please cite the following work.
 ```bibtex
 @article{alabdulwahab2025dlscd,
   journal = {Expert Systems with Applications},
