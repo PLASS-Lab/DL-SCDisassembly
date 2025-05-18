@@ -1,16 +1,19 @@
-# DL-SCDisassembly
+<h1 align="center"><strong>DL-SCDisassembly</strong></h1>
 
-This project is part of "Enhancing Deep Learning-based Side-channel Analysis Using Feature Engineering in
-a Fully Simulated IoT System" paper.
+<p align="left">
+  🪪&nbsp;<a href="#about">About</a>
+  | 🪄&nbsp;<a href="#Installation">Installation</a>
+  | 🗃️&nbsp;<a href="#Usage">Usage</a>
+  | 🏷️&nbsp;<a href="#Features">Features</a>
+  | 🔗&nbsp;<a href="#citation">Citation</a>
+  | 📝&nbsp;<a href="https://doi.org/10.1016/j.eswa.2024.126079" target="_blank">Paper</a>
+</p>
 
+This repository contains the code for the paper:
+<a href="https://doi.org/10.1016/j.eswa.2024.126079" target="_blank">Enhancing deep learning-based side-channel analysis using feature engineering in a fully simulated IoT system</a>
+
+## About
 The main objective is to create a refined dataset for side channel-based disassembly tasks using DL models. The dataset is enhanced using statistical and temporal log transformation features.
-
-## Table of Contents
-
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Features](#features)
----
 
 ## Installation
 
@@ -55,4 +58,23 @@ The main features.
 - **Assembly to CSV Conversion**: Convert raw assembly logs from GDB into structured CSV files, making them easier to manipulate and analyze.
 - **Feature Engineering for Side-Channel Analysis**: Use `FeatureEngineering.py` to apply statistical and temporal log transformation features on the dataset, allowing for customizable feature sets and window sizes.
 - **Countermeasure Detection and Disassembly Analysis**: Perform classification and disassembly tasks with the refined dataset. Experiment with different window sizes and feature sets.
+
+
+## Citation
+If you find this data useful for your research, please cite the following work.
+```bibtex
+@article{alabdulwahab2025dlscd,
+  journal = {Expert Systems with Applications},
+  title = {Enhancing deep learning-based side-channel analysis using feature engineering in a fully simulated IoT system},
+  doi = {https://doi.org/10.1016/j.eswa.2024.126079},
+  author = {Alabdulwahab, Saleh and Cheong, Muyoung and Seo, Aria and Kim, Young-Tak and Son, Yunsik},
+  year = {2025}
+}
+```
+
+<p align="center">
+  <a href="https://plass.dongguk.edu" target="_blank">
+    <img src="https://github.com/sucystem/PLASS/blob/main/logo.png" width="400" alt="PLASS Lab, Dongguk University">
+  </a>
+</p>
 
