@@ -10,9 +10,7 @@
 </p>
 
 This repository contains the code for the paper:
->Title: Enhancing deep learning-based side-channel analysis using feature engineering in a fully simulated IoT system \
->Journal: Expert Systems with Applications \
->DOI: [10.1016/j.eswa.2024.126079](https://doi.org/10.1016/j.eswa.2024.126079)
+[Enhancing deep learning-based side-channel analysis using feature engineering in a fully simulated IoT system](https://doi.org/10.1016/j.eswa.2024.126079)
 
 ## About
 The main objective is to create a refined dataset for side channel-based disassembly tasks using DL models. The dataset is enhanced using statistical and temporal log transformation features.
@@ -64,6 +62,9 @@ The main features.
 
 ## Citation
 If you use this code for your research, please cite the following paper.
+>Title: Enhancing deep learning-based side-channel analysis using feature engineering in a fully simulated IoT system \
+>Journal: Expert Systems with Applications \
+>DOI: [10.1016/j.eswa.2024.126079](https://doi.org/10.1016/j.eswa.2024.126079)
 ```bibtex
 @article{alabdulwahab2025dlscd,
   title = {Enhancing deep learning-based side-channel analysis using feature engineering in a fully simulated IoT system},
