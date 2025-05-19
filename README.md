@@ -10,7 +10,9 @@
 </p>
 
 This repository contains the code for the paper:
-<a href="https://doi.org/10.1016/j.eswa.2024.126079" target="_blank">Enhancing deep learning-based side-channel analysis using feature engineering in a fully simulated IoT system</a>
+>Title: Enhancing deep learning-based side-channel analysis using feature engineering in a fully simulated IoT system \
+>Journal: Expert Systems with Applications \
+>DOI: [10.1016/j.eswa.2024.126079](https://doi.org/10.1016/j.eswa.2024.126079)
 
 ## About
 The main objective is to create a refined dataset for side channel-based disassembly tasks using DL models. The dataset is enhanced using statistical and temporal log transformation features.
@@ -64,11 +66,16 @@ The main features.
 If you use this code for your research, please cite the following paper.
 ```bibtex
 @article{alabdulwahab2025dlscd,
-  journal = {Expert Systems with Applications},
   title = {Enhancing deep learning-based side-channel analysis using feature engineering in a fully simulated IoT system},
+  journal = {Expert Systems with Applications},
+  volume = {266},
+  pages = {126079},
+  year = {2025},
+  issn = {0957-4174},
   doi = {https://doi.org/10.1016/j.eswa.2024.126079},
+  url = {https://www.sciencedirect.com/science/article/pii/S0957417424029464},
   author = {Alabdulwahab, Saleh and Cheong, Muyoung and Seo, Aria and Kim, Young-Tak and Son, Yunsik},
-  year = {2025}
+  keywords = {Side-channel attacks, Feature engineering, Hiding countermeasures, Disassembly attacks, Deep learning, Reverse engineering},
 }
 ```
 
